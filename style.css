@@ -63,3 +63,30 @@ section:after {
  #road {
      z-index: 2;
  }
+
+
+@media (max-width:650px){
+
+    #text {
+        font-size: 6em;
+        text-align: center;
+        line-height: 90%;
+    }
+
+    #moon {
+        object-fit:contain;
+
+    }
+}
+@media (max-width:450px) {
+    #text {
+        font-size: 5em;
+        text-align: center;
+
+    }
+
+    #moon {
+        top: -70px;
+    }
+    
+}
